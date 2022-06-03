@@ -1,0 +1,15 @@
+header {
+  text-align: left;
+}
+.card {
+  border-radius: 3em;
+  width: auto;
+  text-align: center;
+}
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  box-sizing: content-box;
+  justify-content: space-around;
+}

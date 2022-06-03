@@ -1,0 +1,8 @@
+.radiouborder {
+  border: 20px grey solid;
+  border-radius: 20px;
+}
+
+input {
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let data of productData">
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-title"><b>{{data.pName}}</b></div>
+                <div class="card-body">
+                    <img src="{{data.pImage}}" class="w-100% container" alt="img">
+
+                    <h6>{{data.pDes}}</h6>
+                </div>
+                <div class="card-footer">
+                    <b>Price:</b>{{data.pPrice}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

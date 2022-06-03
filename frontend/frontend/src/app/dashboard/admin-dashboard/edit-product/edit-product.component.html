@@ -1,0 +1,31 @@
+<mat-dialog-content class="mat-typography">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form [formGroup]="productEdit">
+                <div>
+                    <label for="">Product Name</label><br>
+                    <input type="text" formControlName="pName">
+                </div>
+                <div>
+                    <label for="">Product Image URL</label><br>
+                    <input type="text" formControlName="pImage">
+                </div>
+                <div>
+                    <label for="">Product Price</label><br>
+                    <input type="number" formControlName="pPrice">
+                </div>
+                <div>
+                    <label for="">Product Description</label><br>
+                    <input type="text" formControlName="pDes">
+                </div>
+                <div class="footer">
+                    <button type="button" (click)="EditProduct()" routerLink="/dashboard/adminDashboard"
+                        class="bg-primary">Updated
+                        Iteam</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</mat-dialog-content>
